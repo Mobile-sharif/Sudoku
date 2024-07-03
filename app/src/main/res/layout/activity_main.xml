@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tl"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/messageTv"
+      android:text="IT IS TV"
+      android:background="@drawable/border"
+      />
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/numberTable" >
+    <TableRow
+        android:id="@+id/numberRow"/>
+  </TableLayout>
+  <TextView
+      android:id="@+id/time_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:textAppearance="@android:style/TextAppearance.Large"
+      android:textSize="56sp" />
+
+  <!--  <TextView-->
+
+<!--  &lt;!&ndash; We will use text view "time_view" &ndash;&gt;-->
+<!--  &lt;!&ndash; to display the number of seconds. &ndash;&gt;-->
+<!--  android:id="@+id/time_view"-->
+<!--  android:layout_width="wrap_content"-->
+<!--  android:layout_height="wrap_content"-->
+<!--  android:layout_gravity="center_horizontal"-->
+
+<!--  &lt;!&ndash; These below attributes make the stopwatch &ndash;&gt;-->
+<!--  &lt;!&ndash; timer nice and big. &ndash;&gt;-->
+<!--  android:textAppearance="@android:style/TextAppearance.Large"-->
+<!--  android:textSize="56sp" />-->
+</androidx.appcompat.widget.LinearLayoutCompat>
